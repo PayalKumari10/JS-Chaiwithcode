@@ -38,3 +38,28 @@ console.log(typeof BigInt);
 
 console.log(typeof null);
 console.log(typeof Symbol);
+
+
+// *****************************************************
+
+//stack (Primitive)  means copy data , Heap (Non-Primitive) means refrence (original data)
+
+let myYoutubename = "sdepayalkumari.com"
+
+let anothername = myYoutubename
+anothername = "payalSDE"
+
+console.log(myYoutubename);
+console.log(anothername);
+
+let userOne = {
+    email: "user@google.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne 
+
+userTwo.email = "payal@gmail.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
