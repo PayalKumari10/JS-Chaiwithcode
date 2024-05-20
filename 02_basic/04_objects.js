@@ -27,7 +27,7 @@ const obj4 = {5: "a", 6: "b"}
 //const obj3 = Object.assign({}, obj1, obj2, obj4)
 
 const obj3 = {...obj1, ...obj2}
-console.log(obj3);
+// console.log(obj3);
 
 const users = [
     {
@@ -45,11 +45,33 @@ const users = [
 ]
 
 users[1].email
-console.log(linkedinUser);
+// console.log(linkedinUser);
 
-console.log(Object.keys(linkedinUser));
-console.log(Object.values(linkedinUser));
-console.log(Object.entries(linkedinUser));
+// console.log(Object.keys(linkedinUser));
+// console.log(Object.values(linkedinUser));
+// console.log(Object.entries(linkedinUser));
 
-console.log(linkedinUser.hasOwnProperty('isLoggedIn'));
-console.log(linkedinUser.hasOwnProperty('isLogged'));
+// console.log(linkedinUser.hasOwnProperty('isLoggedIn'));
+// console.log(linkedinUser.hasOwnProperty('isLogged'));
+
+const course = {
+    coursename: "js in hindi",
+    price: "999",
+    courseInstructor: "payal"
+}
+
+// course.courseInstructor
+
+const { courseInstructor: instructor } = course
+
+// console.log(courseInstructor);
+// console.log(instructor);
+
+
+//++++++***** JSON ******+++++++
+// {
+//     "name": "payal",
+//     "coursename": "js in hindi",
+//     "price": "free"
+
+// }
