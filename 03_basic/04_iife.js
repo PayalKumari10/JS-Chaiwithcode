@@ -13,4 +13,6 @@
 
 ((name) => {
     console.log(    `DB CONNECTED THREE ${name}`);
-} )('payal')    //iffe use for remove the pollutions in global scope.
+} )('payal')   
+
+//iffe use for remove the pollutions in global scope.
