@@ -59,6 +59,7 @@
     prices: 199
    }
 
+   
    function handleObject(anyobject){
     console.log(`username is ${anyobject.username} and price is
      ${anyobject.price}`);
